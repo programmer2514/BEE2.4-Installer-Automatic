@@ -1,0 +1,4 @@
+Better Extended Editor for Portal 2
+	- version 2 4.34.1
+
+We don't expect you to agree to anything :P
