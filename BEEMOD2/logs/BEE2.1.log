@@ -1,0 +1,552 @@
+[INFO] utils.setup_localisations(): Language: 'en_AU'
+[DEBUG] utils.setup_localisations(): Language codes: ['en_AU.ISO8859-1', 'en_AU', 'en.ISO8859-1', 'en']
+[DEBUG] __init__.registerExtensions(): Successfully loaded extension "tkMarkdown.TKConverter".
+[DEBUG] __init__.registerExtensions(): Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+[DEBUG] __init__.registerExtensions(): Successfully loaded extension "markdown.extensions.sane_lists.SaneListExtension".
+[INFO] gameMan.scan_music_locs(): Ap-Tag dir: f:\steamlibrary\steamapps\common\aperture tag/aperturetag/sound/music
+[INFO] gameMan.scan_music_locs(): PS-Mel dir: f:\steamlibrary\steamapps\common\Portal Stories Mel/portal_stories/pak01_dir.vpk
+[INFO] BEE2.<module>(): Loading Packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\apTag"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\apTag" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\apTag\tagItems"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\apTag\tagMusic"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\apTag\tagVO"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\bee1"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\bee1" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\bee1\beemod"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\bee1\pellets"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\bee1\portal"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\blocks"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\bumbleball"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\catwalk"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\conveyor"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\cube_color"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\deathfizzler"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\embed_light"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\embed_light" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\embed_light\resources"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\embed_light\resources" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\embed_light\resources\materials"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\embed_light\resources\materials" for packages...
+[INFO] packageLoader.find_packages(): Extra file: F:\Git\BEE2-items\packages\embed_light\resources\materials\desktop.ini
+[DEBUG] packageLoader.find_packages(): No packages in folder!
+[DEBUG] packageLoader.find_packages(): No packages in folder!
+[DEBUG] packageLoader.find_packages(): No packages in folder!
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\extra"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\extra" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\extra\elevator_videos"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\extra\voice_line"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\fizzler_out_relay"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\fr_fizzlers"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\futbol"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\glass_hole"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\hmw"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\Lautaro" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\Gridded_wall"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\Half_Grate"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\left_middle_right_ped_buttons"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\protruding_ped_buttons"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\standing_reclined_fizzlers"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\unexploitable_sp_grates"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\Lautaro\working_coop_grates"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\lifeform_sensor"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\melMusic"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\monitors"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\neurotoxin"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\p1_music"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\paintFizzler"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\panels"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\phys_shield"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\pro_music"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\rexaura"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\rexaura" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\rexaura\rex_fields"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\rexaura\rex_items"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\rexaura\rex_music"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\rocketTurret"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\scaffold"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\sendificator"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\signage"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\styles"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\styles" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\styles\bts_style"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\styles\oldAp"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\styles\overgrown"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\styles\p1_style"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tdb_csfi"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\trigger_button"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\tspen" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\angled_light_bridge"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\tspen\angled_light_bridge" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\angled_light_bridge\templates"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\tspen\angled_light_bridge\templates" for packages...
+[INFO] packageLoader.find_packages(): Extra file: F:\Git\BEE2-items\packages\tspen\angled_light_bridge\templates\panel_top.vmx
+[DEBUG] packageLoader.find_packages(): No packages in folder!
+[DEBUG] packageLoader.find_packages(): No packages in folder!
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\checkpoint"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\cube_cleaner"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\ditch"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\large_faith"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\ret_button"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\timers"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tspen\ts_logic"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tuleby"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\tuleby" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tuleby\abs_fizz"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tuleby\cube_bomb"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\tuleby\portal_onoff"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\turret_dropper"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\vactubes"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve"
+[DEBUG] packageLoader.find_packages(): Checking subdir "F:\Git\BEE2-items\packages\valve" for packages...
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\buttons"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\clean_style"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\dis_beams"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\geometry"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\hazards"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\music"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\valve\test_elements"
+[DEBUG] packageLoader.find_packages(): Reading package "F:\Git\BEE2-items\packages\wom_plates"
+[INFO] packageLoader.load_packages(): Reading objects from "APERTURE_TAG_ITEMS"...
+[INFO] packageLoader.load_packages(): Reading objects from "TAG_MUSIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "APERTURE_TAG_VOICE"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEEMOD_1"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE_PELLETS"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_PORTALS"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_BLOCKS"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_BUMBLEBALL"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_CATWALK"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_CONVEYOR"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_CUBE_COLORISER"...
+[INFO] packageLoader.load_packages(): Reading objects from "LP_DEATH_FIZZ"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_ELEV_VIDEO"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_VOICE_LINE"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_FIZZLER_OUT_RELAY"...
+[INFO] packageLoader.load_packages(): Reading objects from "FR_FIZZ"...
+[INFO] packageLoader.load_packages(): Reading objects from "PACK_BEE2_FUTBOL"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_GLASS_HOLE"...
+[INFO] packageLoader.load_packages(): Reading objects from "HMW_MOD"...
+[INFO] packageLoader.load_packages(): Reading objects from "LAUTARO_GRIDDED_WALL"...
+[INFO] packageLoader.load_packages(): Package LAUTARO_HALF_GRATE disabled!
+[INFO] packageLoader.load_packages(): Reading objects from "LAUTARO_MODIFIED_PED_BTNS"...
+[INFO] packageLoader.load_packages(): Reading objects from "LAUTARO_MODIFIED_PED_BTN"...
+[INFO] packageLoader.load_packages(): Reading objects from "LAUTARO_STANDING_RECLINED_FIZZLERS"...
+[INFO] packageLoader.load_packages(): Reading objects from "LAUTARO_WALL_GRATES"...
+[INFO] packageLoader.load_packages(): Reading objects from "LAUTARO_GRATES"...
+[INFO] packageLoader.load_packages(): Reading objects from "PRO_LIFEFORM_SENSOR"...
+[INFO] packageLoader.load_packages(): Reading objects from "PS_MEL_MUSIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_MONITORS"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_NEUROTOXIN"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_P1_MUSIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_PAINT_FIZZLER"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_EXTRA_PANELS"...
+[INFO] packageLoader.load_packages(): Reading objects from "PHYS_SHIELD"...
+[INFO] packageLoader.load_packages(): Reading objects from "PRO_MUSIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "REX_FIELD"...
+[INFO] packageLoader.load_packages(): Reading objects from "REX_ITEMS"...
+[INFO] packageLoader.load_packages(): Reading objects from "REX_MUSIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_ROCKET_TURRET"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_UNST_SCAFFOLD"...
+[INFO] packageLoader.load_packages(): Reading objects from "HMW_SENDIFICATOR"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_SIGNAGE"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_BTS"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_OLD_AP"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_OVERGROWN"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_PORTAL_1"...
+[INFO] packageLoader.load_packages(): Reading objects from "TDB_CSFI"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_TRIGGER_BUTTON"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_CHECKPOINT"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_PAINT_CLEANER"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_DITCH"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_LARGE_FAITH"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_RET_BUTTON"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_TIMERS"...
+[INFO] packageLoader.load_packages(): Reading objects from "TSPEN_LOGIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "TULEBY_ABSOLUTE_FIZZLER"...
+[INFO] packageLoader.load_packages(): Reading objects from "TULEBY_CUBE_BOMB"...
+[INFO] packageLoader.load_packages(): Reading objects from "TULEBY_PORTALGUN_ON_OFF"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_TURRET_DROPPER"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_VACTUBES"...
+[INFO] packageLoader.load_packages(): Reading objects from "VALVE_BUTTONS"...
+[INFO] packageLoader.load_packages(): Reading objects from "BEE2_CLEAN_STYLE"...
+[INFO] packageLoader.load_packages(): Reading objects from "VALVE_LASERS"...
+[INFO] packageLoader.load_packages(): Reading objects from "VALVE_GEOMETRY"...
+[INFO] packageLoader.load_packages(): Reading objects from "VALVE_HAZARDS"...
+[INFO] packageLoader.load_packages(): Reading objects from "VALVE_MUSIC"...
+[INFO] packageLoader.load_packages(): Reading objects from "VALVE_TEST_ELEM"...
+[INFO] packageLoader.load_packages(): Reading objects from "PACK_WOM_CONDUCTOR"...
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/sp_entry/5.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/sp_entry/6.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/sp_entry/7.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/sp_exit/3.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/sp_exit/4.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/coop/1.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/coop/2.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/coop/3.jpg"!
+[DEBUG] packageLoader.parse(): No "resources/bee2/bts/coop/4.jpg"!
+[WARNING] packageLoader.parse_item_folder(): "APERTURE_TAG_ITEMS:items/gel_fizz/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEEMOD_1:items/drawbridge/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEEMOD_1:items/crusher_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEEMOD_1:items/60s_flamethrower/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE_PELLETS:items/launcher_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE_PELLETS:items/catcher_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BUMBLEBALL:items/bumbleball/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CONVEYOR:items/conveyor_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CONVEYOR:items/conveyor_p1/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CONVEYOR:items/conveyor_over/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CONVEYOR:items/conveyor_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CUBE_COLORISER:items/coloriser/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "LP_DEATH_FIZZ:items/death_fizz/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "PACK_BEE2_FUTBOL:items/futbol_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "PACK_BEE2_FUTBOL:items/futbol_p1/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "PACK_BEE2_FUTBOL:items/futbol_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "PACK_BEE2_FUTBOL:items/futbol_over/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "HMW_MOD:items/save_point/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "HMW_MOD:items/square_light_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "HMW_MOD:items/square_light_p1/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "HMW_MOD:items/square_light_over/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "PRO_LIFEFORM_SENSOR:items/lifeform_sensor/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_MONITORS:items/monitor/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_NEUROTOXIN:items/neuro_timer/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_NEUROTOXIN:items/neuro_vent/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PAINT_FIZZLER:items/paint_fizz/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_EXTRA_PANELS:items/covered_pan/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "PHYS_SHIELD:items/phys_shield/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "REX_FIELD:items/pellet_field/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "REX_ITEMS:items/cube_def_p1/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_ROCKET_TURRET:items/rocket_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_ROCKET_TURRET:items/rocket_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "HMW_SENDIFICATOR:items/sendtor/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "HMW_SENDIFICATOR:items/sendtor_slim/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TDB_CSFI:items/csfi/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_CHECKPOINT:items/coop_check_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_CHECKPOINT:items/coop_check_over/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_CHECKPOINT:items/coop_check_sep_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_CHECKPOINT:items/coop_check_sep_over/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_CHECKPOINT:items/sp_check/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_CHECKPOINT:items/coop_check_single_clean/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TSPEN_RET_BUTTON:items/ret_floor_button/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "TULEBY_CUBE_BOMB:items/bomb_cube/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_TURRET_DROPPER:items/turret_dropper/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_VACTUBES:items/factory/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_VACTUBES:items/retro/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/floor_button/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BTS:items/mandatory/obs_room/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/mandatory/obs_room/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CLEAN_STYLE:items/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BTS:items/mandatory/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/50s/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/60s/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/70s/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/80s/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/mandatory/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/entry_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CLEAN_STYLE:items/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BTS:items/mandatory/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/50s/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/60s/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/70s/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/80s/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/mandatory/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/exit_door/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CLEAN_STYLE:items/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/50s/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/60s/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/70s/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/80s/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/mandatory/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/coop_spawn/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_CLEAN_STYLE:items/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BTS:items/mandatory/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/50s/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/60s/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/70s/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/mandatory/80s/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/mandatory/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/coop_exit/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/las_catcher_50s/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/laser/catcher/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "VALVE_GEOMETRY:items/glass/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BTS:items/glass/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OLD_AP:items/glass/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/glass/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/glass/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "VALVE_GEOMETRY:items/obs_room/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_BTS:items/obs_room/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_OVERGROWN:items/obs_room/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "VALVE_GEOMETRY:items/light_strip/editoritems.txt has palette set for extra item blocks. Deleting.
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/angled_pan/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/glass_pan/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse_item_folder(): "BEE2_PORTAL_1:items/stairs/properties.txt" has missing entity count!
+[WARNING] packageLoader.parse(): BEEMOD_1:PACK_UNDER_HOTSURFACE_WORLD: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): HMW_SENDIFICATOR:PACK_HMW_SENDTOR_ANT_CLEAN: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): HMW_SENDIFICATOR:PACK_HMW_SENDTOR_ANT_CLEAN_BROKEN: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): HMW_SENDIFICATOR:PACK_HMW_SENDTOR_ANT_RETRO: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): HMW_SENDIFICATOR:PACK_HMW_SENDTOR_ANT_P1: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_SIGNAGE:BEE2_PACK_SIGNAGE_TURRET: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_SIGNAGE:PACK_BEE2_80S_SIGN_PAINT_JUMP: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_SIGNAGE:PACK_BEE2_80S_SIGN_PAINT_SPEED: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BEE2_BULLSEYE_BTS_WHITE_FLOOR: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BEE2_BULLSEYE_BTS_UNDER_WHITE_TILE: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BEE2_BULLSEYE_BTS_WHITE_CEIL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BEE2_BULLSEYE_BTS_PLASTICWALL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BEE2_BULLSEYE_BTS_FACTORYFLOOR: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BEE2_BULLSEYE_BTS_BACKPANELS: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_FLOOR_001B: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_SQUAREBEAMS_BTS: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_PETI_PROJECTOR: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_SIGN_BUTTON: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_SIGN_EXIT: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_SIGN_FUNNEL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_SIGN_FUNNEL_POLARITY: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_SIGN_GEL_SPEED: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_BTS:PACK_BTS_SIGN_GEL_BOUNCE: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_BULLSEYE_RETRO_WOOD_WHITE: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_BULLSEYE_RETRO_50S_BLACK: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_BULLSEYE_RETRO_70S_BLACK: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_BULLSEYE_RETRO_80S_BLACK: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_BULLSEYE_RETRO_80S_DECAL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE_WOODWALL_003C: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE_RETRO_INDICATOR_LIGHT: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BRUSH_BOUNCE: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_RETRO_BLUE_ARROW: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_TURRET: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50S_GOO: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_LBRIDGE: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_SPEED_GEL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_LASER_RELAY: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_LASER_CUBE: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_FUNNEL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_FUNNEL_POLARITY: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_BOX_DROPPER: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_SIGN_50s_BALL_DROPPER: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_SHAPE_SIGN_FRAME_RETRO_1: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_SHAPE_SIGN_FRAME_RETRO_2: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_50S_SHAPE_1: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_50S_SHAPE_2: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_50S_SHAPE_3: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_50S_SHAPE_4: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_NOPAINT_METAL_CORRUGATED: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_NOPAINT_PLYWOOD: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_NOPAINT_SQUAREBEAMS_RUSTY: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_OLD_AP:PACK_BEE2_AP_LOGO: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_CLEAN_STYLE:PACK_CLEAN_DETAIL_WALLS: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_CLEAN_STYLE:PACK_SQUAREBEAMS_SHINY: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_CLEAN_STYLE:PACK_SQUAREBEAMS_NOPAINT: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_CLEAN_STYLE:PACK_BEE2_SHAPE_SIGN_FRAME_CLEAN_1: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): BEE2_CLEAN_STYLE:PACK_BEE2_SHAPE_SIGN_FRAME_CLEAN_2: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): VALVE_TEST_ELEM:PACK_BEE2_BULLSEYE_CLEAN_WHITE_CEIL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): VALVE_TEST_ELEM:PACK_BEE2_BULLSEYE_CLEAN_WHITE_FLOOR: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): VALVE_TEST_ELEM:PACK_BEE2_BULLSEYE_CLEAN_WHITE_WALL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): VALVE_TEST_ELEM:PACK_BEE2_BULLSEYE_CLEAN_WHITE_WALL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): VALVE_TEST_ELEM:PACK_BEE2_BULLSEYE_CLEAN_BLACK_FLOORCEIL: AddIfMat is no longer used.
+[WARNING] packageLoader.parse(): PACK_WOM_CONDUCTOR:WOM_CONDUCTOR_OVERLAY: AddIfMat is no longer used.
+[WARNING] packageLoader.__init__(): Template "BEE2_APTAG_FIZZ_BASE_CLEAN" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_CLEAN" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_OVER" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_RETRO" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_80S" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_P1" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_BTS" has no config!
+[WARNING] packageLoader.__init__(): Template "LAUTARO_PEDESTAL_BASE_BTS_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_ARROW" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_ARROW_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_RECT" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_RECT_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_LONG" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_LONG_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_NUM" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_BTS_NUM_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_ARROW" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_ARROW_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_SIGN" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_SIGN_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_SIGN_WALL" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_EXIT" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_EXIT_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_EXIT_WALL" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_NUM" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_NUM_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_50S_NUM_WALL" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_ARROW" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_SIGN_FLOOR" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_SIGN2_FLOOR" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_SIGN_WALL" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_ARROW_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_SIGN_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_SIGN2_FLOOR_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "BEE2_SIGNAGE_70s_ARROW_WALL_REV" has no config!
+[WARNING] packageLoader.__init__(): Template "TSPEN_BTN_PED_CLEAN_BASE" has no config!
+[WARNING] packageLoader.__init__(): Template "TSPEN_BTN_PED_P1_BASE" has no config!
+[INFO] packageLoader.load_packages(): Object counts:
+ | Style          : 9
+ | Item           : 115
+ | ItemConfig     : 1
+ | QuotePack      : 13
+ | Skybox         : 7
+ | Music          : 126
+ | StyleVar       : 6
+ | StyleVPK       : 6
+ | Elevator       : 36
+ | PackList       : 164
+ | EditorSound    : 17
+ | BrushTemplate  : 219
+ | ConfigGroup    : 7
+ | 
+ |___
+
+[INFO] packageLoader.load_packages(): Checking music objects...
+[WARNING] packageLoader.check_objects(): Sound "music/ctc_z1_001.wav" was reused in "VALVE_PETI_BOUNCE_GEL" <> "VALVE_ROBO_ROOM_1".
+[WARNING] packageLoader.check_objects(): Sound "music/ctc_z1_002.wav" was reused in "VALVE_PETI_BOUNCE_GEL" <> "VALVE_ROBO_ROOM_2".
+[WARNING] packageLoader.check_objects(): Sound "music/ctc_z1_003.wav" was reused in "VALVE_PETI_BOUNCE_GEL" <> "VALVE_ROBO_ROOM_3".
+[WARNING] packageLoader.check_objects(): Sound "music/ctc_z1_004.wav" was reused in "VALVE_PETI_BOUNCE_GEL" <> "VALVE_ROBO_ROOM_4".
+[WARNING] packageLoader.check_objects(): Sound "music/ctc_z1_005.wav" was reused in "VALVE_PETI_BOUNCE_GEL" <> "VALVE_ROBO_ROOM_5".
+[WARNING] packageLoader.check_objects(): Sound "music/ctc_z1_006.wav" was reused in "VALVE_PETI_BOUNCE_GEL" <> "VALVE_ROBO_ROOM_PTI".
+[INFO] packageLoader.load_packages(): Allocating styled items...
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TAG_GUN_ACTIVATOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_DRAW_BRIDGE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_VENT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_VENT" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_VENT" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_CRUSHER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "DOOR" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_HIGH_ENERGY_PELLET_EMITTER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_HIGH_ENERGY_PELLET_CATCHER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_AUTOPORTAL" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_AUTOPORTAL" using inappropriate style for "BEE2_1950s"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_AUTOPORTAL" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_PORTALGUN" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_PORTALGUN" using inappropriate style for "BEE2_1950s"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_PORTALGUN" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_PORTALGUN" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_CUTOUT_TILE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_CUTOUT_TILE" using inappropriate style for "BEE2_1950s"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_CUTOUT_TILE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_BUMBLEBALL" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_BUMBLEBALL" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_CONVEYOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LP_DEATH_FIZZLER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_FR_COMP_SMOKE_FIELD" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_FR_MATTER_INQUISITION_FIELD" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_FR_FORCE_DEFLECTION_FIELD" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_FUTBOL" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_GLASS_HOLE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_SQUARE_LIGHT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LOGIC_GATE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PRO_LIFEFORM_SENSOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_MONITOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_CAMERA" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_NEUROTOXIN_TIMER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_NEUROTOXIN_VENT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_NEUROTOXIN_VENT" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_PAINT_FIZZLER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_PANEL_HALF_STATIC" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_PANEL_GLASS_DOOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_COVERED_ANGLED_PANEL" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PHYS_SHIELD" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_REX_PELLET_FIELD" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_REX_CUBE_DEFLECTOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_REX_PELLET_DESTROYER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_ROCKET_TURRET" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_ROCKET_TURRET" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SCAFFOLD_SLOT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SCAFFOLD_SLOT" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SCAFFOLD_WALL" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SCAFFOLD_WALL" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SCAFFOLD_PIST" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SCAFFOLD_PIST" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_HMW_SENDIFICATOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_HMW_SENDIFICATOR_SLIM" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_HMW_SENDIFICATOR_SLIM" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SIGNAGE_ANTLINE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SIGNAGE_ANTLINE" using inappropriate style for "BEE2_1950s"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SIGNAGE_ANTLINE" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_SIGNAGE_ANTLINE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TDB_CSFI" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_TRIGGER_BUTTON" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_COOP_CHECKPOINT_SEP" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_COOP_CHECKPOINT_SEP" using inappropriate style for "BEE2_1950s"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_COOP_CHECKPOINT_SEP" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_SP_CHECKPOINT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_COOP_CHECKPOINT_SINGLE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_DITCH" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_LARGE_CATAPULT" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_LARGE_CATAPULT" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_BUTTON_PEDESTAL_RETRACT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TSPEN_BUTTON_RETRACT_FLOOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TULEBY_ABSOLUTE_FIZZLER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TULEBY_CUBE_BOMB" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TULEBY_CUBE_BOMB" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TULEBY_PORTALGUN_BUTTON" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TULEBY_PORTALGUN_BUTTON" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_TURRET_DROPPER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_VACTUBE" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BEE2_VACTUBE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BUTTON_FLOOR" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BUTTON_FLOOR" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_BUTTON_FLOOR" using inappropriate style for "BEE2_CLEAN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_OBSERVATION_ROOM" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_OBSERVATION_ROOM" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_OBSERVATION_ROOM" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_OBSERVATION_ROOM" using inappropriate style for "BEE2_CLEAN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LASER_EMITTER_CENTER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LASER_CATCHER_CENTER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LASER_RELAY_CENTER" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_CLEAR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_FLIP" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_FLIP" using inappropriate style for "BEE2_1950s"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_FLIP" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_STAIRS" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_STAIRS" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_STAIRS" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_STAIRS" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PANEL_STAIRS" using inappropriate style for "BEE2_CLEAN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_RAIL_PLATFORM" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_PISTON_PLATFORM" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TURRET" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_TBEAM" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_CATAPULT" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_CATAPULT" using inappropriate style for "BEE2_OVERGROWN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_CATAPULT" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_CATAPULT" using inappropriate style for "BEE2_CLEAN"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LIGHT_BRIDGE" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_LIGHT_BRIDGE" using inappropriate style for "BEE2_PORTAL_1"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_WOM_CONDUCTOR" using inappropriate style for "BEE2_BTS"!
+[WARNING] packageLoader.setup_style_tree(): Item "ITEM_WOM_CONDUCTOR" using inappropriate style for "BEE2_OVERGROWN"!
+[INFO] BEE2_config.save(): Saving changes in config "C:\Users\Spencer Brown\AppData\Roaming\BEEMOD2\config\config.cfg"!
+[INFO] BEE2.<module>(): Done!
+[INFO] BEE2.<module>(): Loading Palettes...
+[INFO] paletteLoader.load_palettes(): Loading builtin "ap_tag"
+[INFO] paletteLoader.load_palettes(): Loading builtin "beemod"
+[INFO] paletteLoader.load_palettes(): Loading builtin "blank"
+[INFO] paletteLoader.load_palettes(): Loading builtin "collapsed"
+[INFO] paletteLoader.load_palettes(): Loading builtin "original"
+[INFO] paletteLoader.load_palettes(): Loading "1308768453.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "1432679272.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "1674089856.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "2091537816.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "2123990265.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "552191852.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "931561564.bee2_palette"
+[INFO] paletteLoader.load_palettes(): Loading "LAST_EXPORT.bee2_palette"
+[INFO] BEE2.<module>(): Done!
+[INFO] BEE2.<module>(): Loading Item Translations...
+[INFO] BEE2.<module>(): Initialising UI...
+[INFO] BEE2_config.save(): Saving changes in config "C:\Users\Spencer Brown\AppData\Roaming\BEEMOD2\config\config.cfg"!
+[WARNING] UI.set_palette(): Unknown item "ITEM_LIGHT_PANEL_WARM"! for palette
+[INFO] BEE2_config.save(): Saving changes in config "C:\Users\Spencer Brown\AppData\Roaming\BEEMOD2\config\compile.cfg"!
+[INFO] BEE2.<module>(): UI initialised!
+[INFO] sound.fx(): Loading sound "expand" -> sounds/extrude.ogg
+[INFO] sound.fx(): Loading sound "contract" -> sounds/carve.ogg
+[INFO] BEE2_config.save(): Saving changes in config "C:\Users\Spencer Brown\AppData\Roaming\BEEMOD2\config\config.cfg"!
+[INFO] BEE2_config.save(): Saving changes in config "C:\Users\Spencer Brown\AppData\Roaming\BEEMOD2\config\games.cfg"!
