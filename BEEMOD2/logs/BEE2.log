@@ -1,8 +1,0 @@
-[INFO] utils.setup_localisations(): Language: 'en_AU'
-[DEBUG] utils.setup_localisations(): Language codes: ['en_AU.ISO8859-1', 'en_AU', 'en.ISO8859-1', 'en']
-[DEBUG] __init__.registerExtensions(): Successfully loaded extension "tkMarkdown.TKConverter".
-[DEBUG] __init__.registerExtensions(): Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
-[DEBUG] __init__.registerExtensions(): Successfully loaded extension "markdown.extensions.sane_lists.SaneListExtension".
-[INFO] gameMan.scan_music_locs(): Ap-Tag dir: f:\steamlibrary\steamapps\common\aperture tag/aperturetag/sound/music
-[INFO] gameMan.scan_music_locs(): PS-Mel dir: f:\steamlibrary\steamapps\common\Portal Stories Mel/portal_stories/pak01_dir.vpk
-[INFO] BEE2.<module>(): Loading Packages...
