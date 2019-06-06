@@ -2,7 +2,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "Better Extended Editor for Portal 2"
-!define PRODUCT_VERSION "v2.4.35.0"
+!define PRODUCT_VERSION "v2.4.35.1"
 !define PRODUCT_PUBLISHER "TeamSpen210"
 !define PRODUCT_WEB_SITE "https://github.com/BEEmod/BEE2.4/blob/master/README.md"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\BEE2.exe"
@@ -54,7 +54,7 @@ var ICONS_GROUP
 ; MUI end ------
 
 Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
-OutFile "BEEMOD2-Setup-4_35_0.exe"
+OutFile "BEEMOD2-Setup-4_35_1.exe"
 InstallDir "$PROGRAMFILES\BEEMOD2"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
