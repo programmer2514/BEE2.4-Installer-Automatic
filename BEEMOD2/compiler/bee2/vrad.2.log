@@ -1,0 +1,8 @@
+[INFO] vrad.main(): BEE2 VRAD hook started!
+[INFO] vrad.main(): No arguments!
+ | The BEE2 VRAD takes all the regular VRAD's arguments, with some extra arguments:
+ | -force_peti: Force enabling map conversion. 
+ | -force_hammer: Don't convert the map at all.
+ | If not specified, the map name must be "preview.bsp" to be treated as PeTI.
+ |___
+

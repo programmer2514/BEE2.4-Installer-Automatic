@@ -1,0 +1,27 @@
+[INFO] vrad.main(): BEE2 VRAD hook started!
+[INFO] vrad.main(): Map path is f:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\preview
+[INFO] vrad.load_config(): Loading Settings...
+[INFO] vrad.load_config(): Config Loaded!
+[WARNING] vrad.main(): OVERRIDE: Applying cheap lighting!
+[INFO] vrad.main(): Final status: is_peti=True, edit_args=True
+[INFO] vrad.main(): Reading BSP
+[INFO] vrad.main(): Done!
+[DEBUG] vrad.main(): Filesystems:
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\BEE2_dev')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\BEE2')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc3\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc2\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc1\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\..\\Portal 2 Sixense Perceptual Pack\\portal2_sixense\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\..\\Portal 2 Sixense Perceptual Pack\\portal2_sixense\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc3')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc2')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc1')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\Git\\HammerAddons\\hammer')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\npc_test')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2 Sixense Perceptual Pack\\portal2_sixense')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\platform')
+[DEBUG] vrad.main(): - : ZipFileSystem('')
+[INFO] vrad.main(): Reading our FGD files...

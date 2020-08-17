@@ -1,0 +1,5 @@
+[WARNING] sound.<module>(): ERROR:SOUNDS NOT INITIALISED!
+Traceback (most recent call last):
+  File "F:\Git\BEE2.4\src\sound.py", line 56, in <module>
+ImportError: No ffmpeg available!
+[WARNING] BEE2_config.load(): Config "C:\Users\Ben\AppData\Roaming\BEEMOD2\config\packages.cfg" not found! Using defaults...

@@ -1,0 +1,318 @@
+[WARNING] vrad.main(): OVERRIDE: Applying cheap lighting!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door_rotating"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door_rotating"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_texturetoggle"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_choreographed_scene"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_choreographed_scene"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_tonemap_controller"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "shadow_control"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_fog_controller"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_soundscript(): Unknown sound "music.bee2"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_placement_helper"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_placement_helper"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_null"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_multi"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "_minlight" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_physics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_physics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_portal_cleanser"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_autosave"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_teleport"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_fade"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_beam"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_citadel_energy_core"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_shake"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_teleport"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_citadel_energy_core"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_beam"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_shake"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_portal_cleanser"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_clientcommand"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_servercommand"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_autosave"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_landmark_exit"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_transition"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_script"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_fade"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_changelevel"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_multiple"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "_minlight" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_physics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_noportal_volume"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_projectedtexture"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "null" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_clip_vphysics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_clip_vphysics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_floor_button"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mincpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxgpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mingpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxcpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableX360" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mincpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxgpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mingpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxcpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableX360" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_multiple"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_sprite"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "npc_security_camera"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_multiple"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_sprite"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "npc_security_camera"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_portal_cleanser"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disablereceiveshadows" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderfx" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendermode" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "game_text"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_player_held"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_player_held"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_multi"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_combineball_type"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_combineball_type"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "generic_actor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "targetname" for ent of type "playtest_manager"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_screen"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_player_start"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_landmark_entry"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_target"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_auto"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_auto"!
+[WARNING] packlist.pack_fgd(): detail.vbsp file does not exist: "detail.vbsp"
+[WARNING] packlist._get_material_files(): File "materials/sprites/effects/bluelaser1.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitebk_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitedn_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whiteft_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitelf_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitert_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whiteup_hdr.vmt" does not exist!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/sprites/effects/bluelaser1.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "sprites/glow01.spr" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "media/aperture_appear.bik" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitebk_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitedn_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whiteft_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitelf_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitert_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whiteup_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "detail.vbsp" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "sound/doors/doormove1.wav" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "models/ballbot_animations.vvd" not packed!
+[ERROR] (unknown file).(unknown function)(): Uncaught Exception:
+Traceback (most recent call last):
+  File "F:\Git\BEE2.4\src\compiler_launch.py", line 16, in <module>
+    vrad.main(sys.argv)
+  File "F:\Git\BEE2.4\src\vrad.py", line 827, in main
+    mod_screenshots()
+  File "F:\Git\BEE2.4\src\vrad.py", line 594, in mod_screenshots
+    for screen in find_screenshots():
+  File "F:\Git\BEE2.4\src\vrad.py", line 488, in find_screenshots
+    for folder in os.listdir(SCREENSHOT_DIR):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: '..\\portal2\\puzzles'

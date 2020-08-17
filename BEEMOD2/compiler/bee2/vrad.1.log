@@ -1,0 +1,1134 @@
+[INFO] vrad.main(): BEE2 VRAD hook started!
+[INFO] vrad.main(): Map path is f:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\preview
+[INFO] vrad.load_config(): Loading Settings...
+[INFO] vrad.load_config(): Config Loaded!
+[WARNING] vrad.main(): OVERRIDE: Applying cheap lighting!
+[INFO] vrad.main(): Final status: is_peti=True, edit_args=True
+[INFO] vrad.main(): Reading BSP
+[INFO] vrad.main(): Done!
+[DEBUG] vrad.main(): Filesystems:
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\BEE2_dev')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\BEE2')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc3\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc2\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc1\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\..\\Portal 2 Sixense Perceptual Pack\\portal2_sixense\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\..\\Portal 2 Sixense Perceptual Pack\\portal2_sixense\\pak01_dir.vpk')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc3')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc2')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc1')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\Git\\HammerAddons\\hammer')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\npc_test')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2 Sixense Perceptual Pack\\portal2_sixense')
+[DEBUG] vrad.main(): - : RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\platform')
+[DEBUG] vrad.main(): - : ZipFileSystem('')
+[INFO] vrad.main(): Reading our FGD files...
+[INFO] vrad.main(): Adding special packed files:
+[INFO] vrad.main(): Run transformations...
+[INFO] bsp_trans.run_transformations(): Running "P2 Antlines"...
+[INFO] bsp_trans.run_transformations(): Running "P2 Coop Trigger"...
+[INFO] bsp_trans.run_transformations(): Running "P2 Goo"...
+[INFO] bsp_trans.run_transformations(): Running "comp_entity_finder"...
+[INFO] bsp_trans.run_transformations(): Running "Attachment Points"...
+[INFO] bsp_trans.run_transformations(): Running "VScript Init Code"...
+[INFO] bsp_trans.run_transformations(): Running "VScript RunScript Inputs"...
+[INFO] bsp_trans.run_transformations(): Running "Optimise logic_auto"...
+[INFO] bsp_trans.run_transformations(): Running "Strip Entities"...
+[INFO] bsp_trans.run_transformations(): Running "Proxy limits"...
+[INFO] bsp_trans.run_transformations(): Running "comp_kv_setter"...
+[INFO] bsp_trans.run_transformations(): Running "comp_relay"...
+[INFO] bsp_trans.run_transformations(): Running "comp_numeric_transition"...
+[INFO] bsp_trans.run_transformations(): Running "comp_entity_mover"...
+[INFO] bsp_trans.run_transformations(): Running "comp_precache_model"...
+[INFO] bsp_trans.run_transformations(): Running "comp_precache_sound"...
+[INFO] bsp_trans.run_transformations(): Running "comp_pack_replace_soundscript"...
+[INFO] bsp_trans.run_transformations(): Running "comp_pack"...
+[INFO] bsp_trans.run_transformations(): Running "comp_pack_rename"...
+[INFO] bsp_trans.run_transformations(): Running "Fix Laser Catcher Skins"...
+[INFO] bsp_trans.run_transformations(): Running "Force Paint in Map"...
+[INFO] bsp_trans.run_transformations(): Running "Precache P2 Light Bridge"...
+[INFO] bsp_trans.run_transformations(): Running "comp_choreo_sceneset"...
+[INFO] bsp_trans.run_transformations(): Running "comp_scriptvar_setter"...
+[INFO] bsp_trans.run_transformations(): Running "trigger_brush Input Filters"...
+[INFO] bsp_trans.run_transformations(): Running "Fix alternate classnames"...
+[INFO] bsp_trans.run_transformations(): Running "Branch Listener UniqueState"...
+[INFO] bsp_trans.run_transformations(): Running "Portal 2 Vactubes"...
+[INFO] bsp_trans.run_transformations(): Running "BEE2: Coop Responses"...
+[INFO] bsp_trans.run_transformations(): Injecting VScript code...
+[INFO] vrad.main(): Scanning map for files to pack:
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door_rotating"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door_rotating"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_overlay_accessor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_texturetoggle"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_choreographed_scene"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_choreographed_scene"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_tonemap_controller"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "shadow_control"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_fog_controller"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_soundscript(): Unknown sound "music.bee2"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_placement_helper"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_placement_helper"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_null"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_multi"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "_minlight" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_physics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_physics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_portal_cleanser"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_autosave"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_teleport"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_fade"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_beam"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_citadel_energy_core"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_shake"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_teleport"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "defaultstyle" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_citadel_energy_core"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_tracktrain"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_beam"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_shake"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_portal_cleanser"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_clientcommand"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_servercommand"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_autosave"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_landmark_exit"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_transition"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_script"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_fade"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_movie_display"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "point_changelevel"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_multiple"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "_minlight" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_physics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_soundscape"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_noportal_volume"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_projectedtexture"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "null" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_clip_vphysics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_clip_vphysics"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_floor_button"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mincpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxgpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mingpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxcpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableX360" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mincpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxgpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "mingpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "maxcpulevel" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableX360" for ent of type "prop_dynamic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_multiple"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_sprite"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "npc_security_camera"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_multiple"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "drawinfastreflection" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disableshadows" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "InputFilter" for ent of type "func_brush"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "move_rope"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "env_sprite"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "npc_security_camera"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_portal_cleanser"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendercolor" for ent of type "linked_portal_door"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "disablereceiveshadows" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderamt" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "renderfx" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "rendermode" for ent of type "beam_spotlight"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light_spot"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_particle_system"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "prop_dynamic_override"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "light"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "game_text"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_player_held"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_player_held"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_multi"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_combineball_type"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_activator_class"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "filter_combineball_type"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "generic_actor"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "path_track"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "targetname" for ent of type "playtest_manager"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_relay"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "ambient_generic"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "vgui_screen"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_player_start"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "trigger_once"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_landmark_entry"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "info_target"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_auto"!
+[WARNING] packlist.pack_fgd(): Unknown keyvalue "linedivider_vscript" for ent of type "logic_auto"!
+[WARNING] packlist.pack_fgd(): detail.vbsp file does not exist: "detail.vbsp"
+[WARNING] packlist._get_material_files(): File "materials/sprites/effects/bluelaser1.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitebk_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitedn_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whiteft_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitelf_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whitert_hdr.vmt" does not exist!
+[WARNING] packlist._get_material_files(): File "materials/skybox/sky_whiteup_hdr.vmt" does not exist!
+[INFO] vrad.main(): Done!
+[INFO] vrad.main(): Writing to BSP...
+[DEBUG] packlist.pack_into_zip(): Allowed filesystems:
+ | + RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\BEE2_dev')
+ | + RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\BEE2')
+ | - VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc3\\pak01_dir.vpk')
+ | - VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc2\\pak01_dir.vpk')
+ | - VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc1\\pak01_dir.vpk')
+ | - VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2\\pak01_dir.vpk')
+ | - VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\..\\Portal 2 Sixense Perceptual Pack\\portal2_sixense\\pak01_dir.vpk')
+ | - VPKFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\..\\Portal 2 Sixense Perceptual Pack\\portal2_sixense\\pak01_dir.vpk')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc3')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc2')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2_dlc1')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\portal2')
+ | - RawFileSystem('F:\\Git\\HammerAddons\\hammer')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\npc_test')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2 Sixense Perceptual Pack\\portal2_sixense')
+ | - RawFileSystem('F:\\SteamLibrary\\steamapps\\common\\Portal 2\\platform')
+ | - ZipFileSystem('')
+ |___
+
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/vscripts/inject/inject_5f9e84a1.nut
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevator_caps/elevator_caps.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevatorshaft_wall/elevatorshaft_wall.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/portal_cleanser_1.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/sign_frame02/sign_frame02.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_1.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/obs_light.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_3.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_stool_static.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk03/lab_desk03.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose01.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_frame_thick.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk02/lab_desk02.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose03.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/keyboard.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/mouse.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/lab_shelf_small.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk05/lab_desk05.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_animsigns/signage_num00.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsnodraw.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/metalwall048b_med.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/citadel_metalwall060a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metaltrack001a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_wall002.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/metalwall048b_lrg.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001_gradient00.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_floor001a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_floor001b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/hazard_orange_03b.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/modular_wall_light.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_floor001a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/light_recessedcool002.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsinvisible.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsskip.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_ceiling001a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/light_recessedcool_glow.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolstrigger.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolshint.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsplayerclip.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/white008.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/white009.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsblack.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001_gradient01.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/observationwall_001b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001_gradient05.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_floor001c.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tile/observation_tilefloor001a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/observationwall_001a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/signage_exit.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/signage_arrow.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observationwall_001a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observationwall_001b.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observation_tilefloor001a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/metaldoor028a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/orange_noglow.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metalwall_bts_006b_gradient.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsclip.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whiteup.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall002a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/metal/metalwall048b_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/metal/metal_modular_floor001_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/plastic/plasticwall001b_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/plastic/plasticwall004a_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/plastic/plasticwall001a_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/concrete/concretefloor003b_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/plastic/plasticwall003a_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/plastic/plastic_light002a_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/plastic/plastic_light002c_-2400_0_0.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/ind_p1/corner_wall.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/ind_p1/straight_wall.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/ind_p1/straight_floor.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/overlay_button_accent.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/overlays/stain_concrete001.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/overlays/stain_tile001.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_world.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/plats/a3_jump_intro_rotating_panel_arrival_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/plats/a3_jump_intro_rotating_panel_travel_01.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/security_camera.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/ballbot.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/table_reference.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_clipboard.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/angle_helper.mdl
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/sprites/effects/bluelaser1.vmt" not packed!
+[DEBUG] packlist.pack_into_zip(): ADD:  scripts/bee2_snd/portal_sounds.txt
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/wall_move5.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/garage_stop1.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_body.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_doors.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_portal.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/ambient/alarms/portal_elevator_chime.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/plats/jailbreak_door_close.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/vscripts/transitions/sp_transition_list.nut
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/dinosaur_fizzle1.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/dinosaur_fizzle2.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/dinosaur_fizzle3.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/ambient/music/looping_radio_mix.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/radio_clean.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_chair/lab_chair.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/flashlight002.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/light_power_on_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/light_power_on_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/light_power_on_04.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/floor_button.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/p1_pgun.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/doors/door_metal_thin_close2.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_left.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_right.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/cable/cable.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "sprites/glow01.spr" not packed!
+[DEBUG] packlist.pack_into_zip(): ADD:  scripts/vscripts/bee2/p1_camera.nut
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/sprites/glow_test02.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/sprites/light_glow03.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case02/pc_case02.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case_open/pc_case_open.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/prop_portalgun.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/vscripts/choreo/glados.nut
+[DEBUG] packlist.pack_into_zip(): ADD:  scripts/vscripts/bee2/coop_responses.nut
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/vscripts/inject/inject_33dc9ed3.nut
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/axis_helper.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/vscripts/transitions/voting_dialog.nut
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/ambient/machines/fluorescent_hum_1.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/vscripts/inject/inject_72b6ef1d.nut
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_vfx.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/vfx/fizzler_lp_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/vfx/fizzler_shutdown_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/vfx/fizzler_start_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/vfx/fizzler_vortex_lp_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_props_aperture.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/material_emancipation_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_physics.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/physics/metal/sawblade_stick1.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/physics/metal/sawblade_stick2.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/physics/metal/sawblade_stick3.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/ambient/fire/gascan_ignite1.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/strider_muzzle.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/combinemuzzle2.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/combinemuzzle2_dark.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "media/aperture_appear.bik" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/cable/rope_shadowdepth.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/engine/writez.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitebk.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitebk_hdr.vmt" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitedn.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitedn_hdr.vmt" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whiteft.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whiteft_hdr.vmt" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitelf.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitelf_hdr.vmt" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitert.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whitert_hdr.vmt" not packed!
+[WARNING] packlist.pack_into_zip(): WARNING: "materials/skybox/sky_whiteup_hdr.vmt" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/detail/detailsprites.vmt
+[WARNING] packlist.pack_into_zip(): WARNING: "detail.vbsp" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevator_caps/elevator_caps.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevator_caps/elevator_caps.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevator_caps/elevator_caps.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevator_caps/elevator_caps.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevator_caps/elevator_caps.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevatorshaft_wall/elevatorshaft_wall.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevatorshaft_wall/elevatorshaft_wall.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevatorshaft_wall/elevatorshaft_wall.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/elevatorshaft_wall/elevatorshaft_wall.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevatorshaft_wall/elevatorshaft_wall.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/portal_cleanser_1.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/portal_cleanser_1.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/portal_cleanser_1.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/portal_cleanser_1.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/portal_cleanser.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/sign_frame02/sign_frame02.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/sign_frame02/sign_frame02.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/sign_frame02/sign_frame02.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/sign_frame02/sign_frame02.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/sign_frame02/sign_frame02.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_1.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_1.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_1.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_1.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_lab/glasswindow_observation.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/obs_light.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/obs_light.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/obs_light.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/walllight_sheet.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_3.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_3.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_3.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_lab/glass_observation_3.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_stool_static.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_stool_static.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_stool_static.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_stool_static.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_stool.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk03/lab_desk03.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk03/lab_desk03.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk03/lab_desk03.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk03/lab_desk03.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_desk03/lab_desk03.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose01.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose01.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose01.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose01.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_blank.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_screen_fast.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_frame_thick.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_frame_thick.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_frame_thick.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/door_01_off.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk02/lab_desk02.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk02/lab_desk02.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk02/lab_desk02.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk02/lab_desk02.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_desk02/lab_desk02.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose03.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose03.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose03.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_monitor_pose01/lab_monitor_pose03.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_screen.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/keyboard.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/keyboard.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/keyboard.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/kb_mouse.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/mouse.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/mouse.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/mouse.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/lab_shelf_small.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/lab_shelf_small.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/lab_shelf_small.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/lab_shelf.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk05/lab_desk05.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk05/lab_desk05.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk05/lab_desk05.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_desk05/lab_desk05.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_desk05/lab_desk05.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_animsigns/signage_num00.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_animsigns/signage_num00.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_animsigns/signage_num00.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_animsigns/signage_num00.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_animsigns/newsignage_back00.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_animsigns/awe_blank.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsnodraw.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/metalwall048b_med.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/metalwall048b_med_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metalwall060a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metaltrack001a.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_wall002.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_wall002_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/detail/detail_concrete001a.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/metalwall048b_lrg.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/metalwall048b_lrg_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001_gradient00.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_floor001a.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_floor001_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/detail/detail_concrete_01.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_floor001b.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/concrete_modular_floor001b_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/hazard_orange_03b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_bts_modular_wall001a.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/overlay_light_gradient.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_floor001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_floor001a_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/light_recessedcool002.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsinvisible.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsskip.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_ceiling001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolstrigger.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolshint.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsplayerclip.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/white008.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/white002.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsblack.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001_gradient01.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/observationwall_001b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_wall001_gradient05.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concrete_modular_floor001c.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tile/observation_tilefloor001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tile/observation_tilefloor001a-height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/observationwall_001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/signage_exit.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/signage_arrow.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observationwall_001a.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observationwall_001b.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observationwall_001b_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/detail_concrete_03.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/observation_tilefloor001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tile/observation_tilefloor001a_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/p1/obs/metaldoor028a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/detail/metal_detail_01.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/lights/light_orange001.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metalwall_bts_006b_gradient.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/tools/toolsclip.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whiteup.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall002a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metalwall048b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metalwall048b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/c-2400_0_0.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metal_modular_floor001.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metal_modular_floor001.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/metal/metal_modular_floor001_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall001b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall001b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall004a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall004a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall004a_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall001a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall001a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concretefloor003b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/concrete/concretefloor003b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall003a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall003a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plasticwall003a_height-ssbump.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plastic_light002a.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plastic_light002a.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plastic_light002c.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/plastic/plastic_light002c.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/indicator_lights/indicator_lights_corner_wall.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/ind_p1/p1_antline_wall_double.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/ind_p1/p1_antline_floor_double.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/signage/overlay_button_accent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/overlays/stain_concrete001.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/overlays/stain_tile001.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/security_camera.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/security_camera.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/security_camera.sw.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/security_camera.dx80.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/security_camera.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/security_camera.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/ballbot.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/ballbot.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/ballbot.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/ballbot.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_frame.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_shell.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_shell_skin1.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/bot_eye_ring_lights.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/ballbot_animations.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_core_ball.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_bicep.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_clavplate.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_elbow.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_knee.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_thigh.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_elbow.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_foot.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hand.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hipplate.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_uparm.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/table_reference.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/table_reference.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/table_reference.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/table_reference.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/table.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_clipboard.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_clipboard.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_clipboard.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props_bts/bts_clipboard.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_d.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_c.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_a.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/coffee_mug.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk1.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk2.mdl
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk3.mdl
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/angle_helper.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/angle_helper.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/editor/axis_helper.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_body.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_body.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_body.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_body.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_3.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_1.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_2.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevator_glass.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_doors.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_doors.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_doors.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/round_elevator_doors.dx90.vtx
+[WARNING] packlist.pack_into_zip(): WARNING: "sound/doors/doormove1.wav" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/plats/elevator_stop2.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/radio_clean.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/radio_clean.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/radio_clean.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/radio_clean.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_chair/lab_chair.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_chair/lab_chair.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_chair/lab_chair.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/lab_chair/lab_chair.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_chair/lab_chair.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/floor_button.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/floor_button.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/floor_button.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/floor_button/p1_button.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/btn_up.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  sound/bee2/p1/btn_down.wav
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/p1_pgun.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/p1_pgun.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_blue.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_orange.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_glass.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_left.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_left.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/door_01.vmt
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_right.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/door_right.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/cable/black.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/sprites/glow_test02.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/sprites/light_glow03.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case02/pc_case02.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case02/pc_case02.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case02/pc_case02.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case02/pc_case02.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case02/pc_case02_b.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case02/pc_case02.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case_open/pc_case_open.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case_open/pc_case_open.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case_open/pc_case_open.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/pc_case_open/pc_case_open.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case_open/pc_case_open.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/prop_portalgun.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/prop_portalgun.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/prop_portalgun.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/props/prop_portalgun.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun_blue.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun_orange.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/axis_helper.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/axis_helper.sw.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/axis_helper.dx80.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/editor/axis_helper.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/strider_muzzle.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/combinemuzzle2.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/effects/combinemuzzle2_dark.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitebk.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitedn.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whiteft.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitelf.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/skybox/sky_whitert.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/detail/detailsprites.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevator_caps/elevator_caps.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevator_caps/elevator_caps_exp.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevatorshaft_wall/elevatorshaft_wall.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevatorshaft_wall/elevatorshaft_wall_exp.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/portal_cleanser.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/portal_cleanser_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/portal_cleanser_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/sign_frame02/sign_frame02.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/sign_frame02/sign_frame02_exp.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/glass/refract_light_normal.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/walllight_sheet.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_stool.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_desk03/lab_desk03.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_blank.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_n.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_exp.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_monitor/lab_monitor_screen_text.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/dev/dev_scanline.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/door_01_off.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/door_01_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/door_01_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_desk02/lab_desk02.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/kb_mouse.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/kb_mouse_n.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/kb_mouse_exp.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/lab_shelf.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_desk05/lab_desk05.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_animsigns/newsignage_back00.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_animsigns/awe_blank.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/maps/preview/c-2400_0_0.hdr.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/security_camera.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/security_camera_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/security_camera_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_frame.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_frame_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_shell.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_shell_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/ballbot_shell_skin1.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/bot_eye_ring_lights.vtf
+[WARNING] packlist.pack_into_zip(): WARNING: "models/ballbot_animations.vvd" not packed!
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_player.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/eggbot/misc/silence.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_cool_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_agreement_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_fast_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_fast_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_fast_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_fast_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_leadin_fast_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_ratchet_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_ratchet_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_ratchet_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_ratchet_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_ratchet_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_short_air_taunt_49.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_short_air_taunt_51.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_short_thumbs_up_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_07.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_08.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_09.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_10.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_11.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_12.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_13.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_14.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_15.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_16.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_17.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_18.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_arm_motor_19.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/npc/sphere/personality_sphere_blink_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/npc/sphere/personality_sphere_blink_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/npc/sphere/personality_sphere_blink_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/npc/sphere/personality_sphere_blink_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/npc/sphere/personality_sphere_blink_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/npc/sphere/personality_sphere_blink_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_light_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_light_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_light_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_light_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_ball_fs_robotics_impact_light_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_pain_turret_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_pain_turret_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/ballbot_pain_md_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_ballbot.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/v2/ballbot_point_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/v2/ballbot_point_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/v2/ballbot_point_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/v2/ballbot_point_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/v2/ballbot_point_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_no_impact_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_no_impact_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_no_impact_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/world/panel_splash_water_no_impact_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/explosions/explo_generic_med_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/explosions/explo_generic_med_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/explosions/explo_generic_med_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/explosions/explo_generic_med_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/explosions/explo_generic_med_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/props/explosions/explo_generic_med_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: scripts/game_sounds_taunts_ball.txt
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/physics/metal/weapon_impact_soft3.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/p2_fs_jump_land_tile_09.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/p2_fs_jump_land_tile_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_07.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_08.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_09.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_10.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_11.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_12.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_13.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_14.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_15.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_07.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_bot_taunt_smack/coop_bot_taunt_smack_08.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_replace_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/taunts/store/ballbot_basketball_sfx_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/ballbot/taunts/store/ballbot_basketball_2_sfx_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_egg_fs_robotics_l_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_egg_fs_robotics_l_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_egg_fs_robotics_l_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/footsteps/coop_bot_egg_fs_robotics_l_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_l_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_l_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_l_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_l_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_l_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_l_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_r_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_r_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_r_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_r_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_r_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_leg_motor_r_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_13.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_05.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_07.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_09.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_08.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_steal_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_steal_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_steal_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_steal_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_06.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_10.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_12.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_motors/coop_bot_egg_motor_idle_15.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_head_smash_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_head_smash_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_head_smash_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_kick_impact_01.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_replace_02.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_replace_03.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: sound/player/coop_foley/coop_foley_replace_04.wav
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_core_ball.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_core_ball.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_core_ball.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_core_ball.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/bot_eye_lights.vmt
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_bicep.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_bicep.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_bicep.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_bicep.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_clavplate.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_clavplate.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_clavplate.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_clavplate.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_elbow.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_elbow.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_elbow.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_elbow.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_knee.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_knee.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_knee.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_knee.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_thigh.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_thigh.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_thigh.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_l_thigh.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_elbow.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_elbow.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_elbow.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_elbow.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_foot.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_foot.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_foot.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_foot.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hand.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hand.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hand.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hand.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hipplate.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hipplate.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hipplate.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_hipplate.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_uparm.vvd
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_uparm.phy
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_uparm.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: models/player/ballbot/gib_r_uparm.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/table.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_d.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_c.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props_bts/bts_clipboard_a.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/coffee_mug.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk1.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk1.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk1.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk2.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk2.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk2.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk3.vvd
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk3.phy
+[DEBUG] packlist.pack_into_zip(): ADD:  models/bee2/props_p1/coffee_mug_chunk3.dx90.vtx
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/editor/axis_helper.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_3.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_3_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_3_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_1.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_1_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_1_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_2.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_2_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/round_elevator_sheet_2_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/elevator_glass.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/radio_clean.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/radio_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/radio_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_chair/lab_chair.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_chair/lab_chair_n.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/lab_chair/lab_chair_exp.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/floor_button/base.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/floor_button/normal.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/floor_button/exponent.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_blue.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_normal.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_orange.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/p1_pgun/v_portalgun_glass.vtf
+[DEBUG] packlist.pack_into_zip(): ADD:  materials/bee2/models/props_p1/door_01.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case02/pc_case02_b.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case02/pc_case02_n.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case02/pc_case02_exp.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case02/pc_case02.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case_open/pc_case_open.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case_open/pc_case_open_n.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/props/pc_case_open/pc_case_open_exp.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun_blue.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun_normal.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun_exponent.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun_orange.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/weapons/w_models/portalgun/w_portalgun.vtf
+[DEBUG] packlist.pack_into_zip(): SKIP: materials/models/player/coop_bots/bot_eye_lights.vtf
+[INFO] packlist.pack_into_zip(): Compressing packfile...
+[INFO] vrad.main(): Packed files:
+ | scripts/vscripts/inject/inject_3d8b9a07.nut
+ |___
+
+[INFO] vrad.main():  - BSP written!
+[INFO] vrad.mod_screenshots(): Using PeTI screenshot!
+[ERROR] (unknown file).(unknown function)(): Uncaught Exception:
+Traceback (most recent call last):
+  File "F:\Git\BEE2.4\src\compiler_launch.py", line 16, in <module>
+    vrad.main(sys.argv)
+  File "F:\Git\BEE2.4\src\vrad.py", line 827, in main
+    mod_screenshots()
+  File "F:\Git\BEE2.4\src\vrad.py", line 594, in mod_screenshots
+    for screen in find_screenshots():
+  File "F:\Git\BEE2.4\src\vrad.py", line 488, in find_screenshots
+    for folder in os.listdir(SCREENSHOT_DIR):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: '..\\portal2\\puzzles'
