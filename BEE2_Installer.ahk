@@ -280,6 +280,11 @@ InstallBEE2:
         FileAppend, %packageVersion%, pck_version.txt
     }
     
+    Date_HRS := (A_YYYY * 8760) + (A_MM * 730) + (A_DD * 24) + A_Hour
+    
+    FileDelete, last_update.txt
+    FileAppend, %Date_HRS%, last_update.txt
+    
     ; Finish installation
     RunWait, icacls "C:\Program Files\BEEMOD2" /grant "Everyone":F /t,, Hide
     
@@ -311,6 +316,7 @@ UninstallBEE2:
     SetWorkingDir, %A_AppData%\BEEMOD2
     FileDelete, version.txt
     FileDelete, pck_version.txt
+    FileDelete, last_update.txt
     
     Sleep, 1000
     
@@ -365,6 +371,12 @@ CheckForUpdates:
     
     ; Read current version text files
     SetWorkingDir, %A_AppData%\BEEMOD2
+    
+    Date_HRS := (A_YYYY * 8760) + (A_MM * 730) + (A_DD * 24) + A_Hour
+    
+    FileDelete, last_update.txt
+    FileAppend, %Date_HRS%, last_update.txt
+    
     FileRead currentVersion, version.txt
     If FileExist("pck_version.txt")
         FileRead currentPckVersion, pck_version.txt
@@ -448,8 +460,16 @@ CheckForUpdates:
 Return
 
 RunBEE2:
+    ; Get last update time
+    SetWorkingDir, %A_AppData%\BEEMOD2
+    FileRead lastUpdate, last_update.txt
+    
+    ; Get date in hours
+    Date_HRS := (A_YYYY * 8760) + (A_MM * 730) + (A_DD * 24) + A_Hour
+
     ; Check for updates
-    GoSub, CheckForUpdates
+    If not (Date_HRS = lastUpdate)
+        GoSub, CheckForUpdates
     
     ; Run BEE2
     ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """C:\Program Files\BEEMOD2\BEE2.exe""" )
