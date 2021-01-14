@@ -1,14 +1,8 @@
-# BEE2.4 Automatic Installer (Windows)
-![Bee2 Installer](https://imgur.com/LhTFDyo.png)
+# BEE2 Automatic Installer
+This is a rewrite of my [original installer](https://github.com/programmer2514/BEE2.4-Installer-Automatic/tree/nsis) in *[AutoHotKey](https://www.autohotkey.com/)*.
 
-This is an automatic installer for *[**BEE2** (Better Extended Editor for Portal 2)](https://github.com/BEEmod/BEE2.4)*
+It includes all of the features of the original, but is a downloader, so it takes up almost no space on it's own and should always update the application to the latest version.
 
-Written in *[NSIS](https://nsis.sourceforge.io/Main_Page)*, this installer will incorporate **BEE2** into the system and add it to the Windows start menu
+This may have BEE2 integration in the future, but as of right now, it is a standalone program.
 
-An uninstaller has been included as well.
-
-In addition, the **BEE2** packages are included in the installer.
-
-I will update the installer with every new release of **BEE2**.
-
-The newest release of **BEE2** Automatic Installer can be found *[here (v4.38.0)](https://github.com/programmer2514/BEE2.4-Installer-Automatic/releases/latest/)*.
+The latest release can be found *[here](https://github.com/programmer2514/BEE2.4-Installer-Automatic/releases/latest/)*.
