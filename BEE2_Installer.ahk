@@ -1,4 +1,5 @@
 ﻿#NoEnv
+#NoTrayIcon
 #SingleInstance Ignore
 
 ; Declare variables
@@ -222,17 +223,29 @@ InstallBEE2:
     FileRemoveDir, BEEMOD2, 1
     
     ; Update progress
-    Loop, 4
+    Loop, 2
     {
         GuiControl,, InstallProgress, +1
         Sleep, 5
     }
+    GuiControl,, InstallText, Downloading icons...
     
-    ; Copy self into BEE2 directory
+    ; Copy extra files into BEE2 directory
     FileCopy, %A_ScriptFullPath%, C:\Program Files\BEEMOD2
     
+    SetWorkingDir, C:\Program Files\BEEMOD2
+    FileDelete, BEE2.ico
+    UrlDownloadToFile, https://raw.githubusercontent.com/programmer2514/BEE2.4-Installer-Automatic/master/icons/bee2.ico, bee2.ico
+    UrlDownloadToFile, https://raw.githubusercontent.com/programmer2514/BEE2.4-Installer-Automatic/master/icons/bee2-uninstaller.ico, bee2-uninstaller.ico
+    UrlDownloadToFile, https://raw.githubusercontent.com/programmer2514/BEE2.4-Installer-Automatic/master/icons/bee2-updater.ico, bee2-updater.ico
+    
+    
     ; Update progress
-    GuiControl,, InstallProgress, +1
+    Loop, 3
+    {
+        GuiControl,, InstallProgress, +1
+        Sleep, 5
+    }
     GuiControl,, InstallText, Adding shortcuts...
     
     ; Create Start Menu folder
@@ -254,9 +267,9 @@ InstallBEE2:
     GuiControl,, InstallProgress, +1
     
     ; Create BEE2, Check for updates, & Uninstall links
-    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, BEE2.lnk, C:\Program Files\BEEMOD2\, -r, Launch BEE2, C:\Program Files\BEEMOD2\BEE2.exe
-    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, Uninstall.lnk, C:\Program Files\BEEMOD2\, -u, Uninstall BEE2, C:\Program Files\BEEMOD2\BEE2.exe
-    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, Check for Updates.lnk, C:\Program Files\BEEMOD2\, -c, Check for updates to BEE2, C:\Program Files\BEEMOD2\BEE2.exe
+    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, BEE2.lnk, C:\Program Files\BEEMOD2\, -r, Launch BEE2, C:\Program Files\BEEMOD2\bee2.ico
+    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, Uninstall.lnk, C:\Program Files\BEEMOD2\, -u, Uninstall BEE2, C:\Program Files\BEEMOD2\bee2-uninstaller.ico
+    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, Check for Updates.lnk, C:\Program Files\BEEMOD2\, -c, Check for updates to BEE2, C:\Program Files\BEEMOD2\bee2-updater.ico
     
     ; Update progress
     Loop, 2
