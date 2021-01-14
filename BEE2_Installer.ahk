@@ -143,7 +143,7 @@ InstallBEE2:
     GuiControl,, InstallProgress, +1
     
     ; Download unzip.exe
-    UrlDownloadToFile, https://github.com/programmer2514/BEE2.4-Installer-Automatic/blob/ahk/unzip/unzip.exe?raw=true, unzip.exe
+    UrlDownloadToFile, https://github.com/programmer2514/BEE2.4-Installer-Automatic/blob/master/unzip/unzip.exe?raw=true, unzip.exe
     
     ; Update progress
     Loop, 3
