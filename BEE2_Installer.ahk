@@ -41,16 +41,20 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
     {
         if (installFlag = 1)
         {
-        if A_IsCompiled
-            Run *RunAs "%A_ScriptFullPath%" /U /restart
-        else
-            Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /U
+            if A_IsCompiled
+            {
+                FileCopy, %A_ScriptFullPath%, %A_Temp%
+                Run *RunAs "%A_Temp%\%A_ScriptName%" /restart /U
+            } else
+            {
+                Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /U
+            }
         } else
         {
-        if A_IsCompiled
-            Run *RunAs "%A_ScriptFullPath%" /restart
-        else
-            Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%"
+            if A_IsCompiled
+                Run *RunAs "%A_ScriptFullPath%" /restart
+            else
+                Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%"
         }
     }
     ExitApp
@@ -349,7 +353,9 @@ UninstallBEE2:
     }
     
     ; Remove application/packages
-    SetWorkingDir, %A_ProgramFiles%
+    SetWorkingDir, C:\Program Files
+    FileRemoveDir, BEEMOD2, 1
+    SetWorkingDir, C:\Program Files (x86)
     FileRemoveDir, BEEMOD2, 1
     
     ; Remove start menu shortcuts
@@ -419,7 +425,7 @@ CheckForUpdates:
                 try
                 {
                     if A_IsCompiled
-                        Run *RunAs "%A_ScriptFullPath%" /R /restart
+                        Run *RunAs "%A_ScriptFullPath%" /restart /R
                     else
                         Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /R
                 }
@@ -435,7 +441,7 @@ CheckForUpdates:
                 try
                 {
                     if A_IsCompiled
-                        Run *RunAs "%A_ScriptFullPath%" /C /restart
+                        Run *RunAs "%A_ScriptFullPath%" /restart /C
                     else
                         Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /C
                 }
