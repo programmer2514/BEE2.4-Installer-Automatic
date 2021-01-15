@@ -113,7 +113,8 @@ InstallBEE2:
     ; Delete old install
     If (installFlag = 0)
     {
-        SetWorkingDir %A_ProgramFiles%
+        SetWorkingDir, %A_ProgramFiles%
+        FileDelete, BEEMOD2
         FileRemoveDir, BEEMOD2, 1
         FileCreateDir, BEEMOD2
     }
@@ -175,7 +176,7 @@ InstallBEE2:
         
         ; Unzip and copy to program files
         RunWait, unzip.exe beemod.zip -d beemod,, Hide
-        CopyFilesAndFolders("beemod\*", "C:\Program Files\BEEMOD2", true)
+        CopyFilesAndFolders(A_Temp . "\BEEMOD2\beemod\*", A_ProgramFiles . "\BEEMOD2", true)
     }
     
     ; Update progress
@@ -207,7 +208,7 @@ InstallBEE2:
         
         ; Unzip and copy to program files
         RunWait, unzip.exe packages.zip -d packages,, Hide
-        CopyFilesAndFolders("packages\*", "C:\Program Files\BEEMOD2", true)
+        CopyFilesAndFolders(A_Temp . "\BEEMOD2\packages\*", A_ProgramFiles . "\BEEMOD2", true)
     }
     
     ; Update progress
@@ -230,8 +231,8 @@ InstallBEE2:
     }
     GuiControl,, InstallText, Downloading icons...
     
-    ; Copy extra files into BEE2 directory
-    FileCopy, %A_ScriptFullPath%, C:\Program Files\BEEMOD2
+    ; Copy self into BEE2 directory
+    FileCopy, %A_ScriptFullPath%, %A_ProgramFiles%\BEEMOD2
     
     SetWorkingDir, C:\Program Files\BEEMOD2
     FileDelete, BEE2.ico
@@ -267,9 +268,9 @@ InstallBEE2:
     GuiControl,, InstallProgress, +1
     
     ; Create BEE2, Check for updates, & Uninstall links
-    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, BEE2.lnk, C:\Program Files\BEEMOD2\, -r, Launch BEE2, C:\Program Files\BEEMOD2\bee2.ico
-    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, Uninstall.lnk, C:\Program Files\BEEMOD2\, -u, Uninstall BEE2, C:\Program Files\BEEMOD2\bee2-uninstaller.ico
-    FileCreateShortcut, C:\Program Files\BEEMOD2\%A_ScriptName%, Check for Updates.lnk, C:\Program Files\BEEMOD2\, -c, Check for updates to BEE2, C:\Program Files\BEEMOD2\bee2-updater.ico
+    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, BEE2.lnk, %A_ProgramFiles%\BEEMOD2\, -r, Launch BEE2, %A_ProgramFiles%\BEEMOD2\BEE2.exe
+    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, Uninstall.lnk, %A_ProgramFiles%\BEEMOD2\, -u, Uninstall BEE2, %A_ProgramFiles%\BEEMOD2\BEE2.exe
+    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, Check for Updates.lnk, %A_ProgramFiles%\BEEMOD2\, -c, Check for updates to BEE2, %A_ProgramFiles%\BEEMOD2\BEE2.exe
     
     ; Update progress
     Loop, 2
@@ -299,7 +300,7 @@ InstallBEE2:
     FileAppend, %Date_HRS%, last_update.txt
     
     ; Finish installation
-    RunWait, icacls "C:\Program Files\BEEMOD2" /grant "Everyone":F /t,, Hide
+    RunWait, icacls "%ProgramFiles%\BEEMOD2" /grant "Everyone":F /t,, Hide
     
     Gui, Destroy
     If (downloadApp = 1)
@@ -311,7 +312,7 @@ InstallBEE2:
     MsgBox, 0x124, BEE2 Installer, Would you like to run BEE2 now?
     IfMsgBox Yes
     {
-        ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """C:\Program Files\BEEMOD2\BEE2.exe""" )
+        ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """" . A_ProgramFiles . "\BEEMOD2\BEE2.exe""" )
     }
 Return
 
@@ -348,7 +349,7 @@ UninstallBEE2:
     }
     
     ; Remove application/packages
-    SetWorkingDir, C:\Program Files
+    SetWorkingDir, %A_ProgramFiles%
     FileRemoveDir, BEEMOD2, 1
     
     ; Remove start menu shortcuts
@@ -485,7 +486,7 @@ RunBEE2:
         GoSub, CheckForUpdates
     
     ; Run BEE2
-    ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """C:\Program Files\BEEMOD2\BEE2.exe""" )
+    ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """" . A_ProgramFiles . "\BEEMOD2\BEE2.exe""" )
 Return
 
 
