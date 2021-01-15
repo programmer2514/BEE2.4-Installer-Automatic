@@ -1,4 +1,6 @@
 # BEE2.4 Automatic Installer (Windows)
+### THIS VERSION IS DEPRECATED. PLEASE USE VERSION FROM MASTER BRANCH
+
 ![Bee2 Installer](https://imgur.com/LhTFDyo.png)
 
 This is an automatic installer for *[**BEE2** (Better Extended Editor for Portal 2)](https://github.com/BEEmod/BEE2.4)*
