@@ -268,9 +268,9 @@ InstallBEE2:
     GuiControl,, InstallProgress, +1
     
     ; Create BEE2, Check for updates, & Uninstall links
-    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, BEE2.lnk, %A_ProgramFiles%\BEEMOD2\, -r, Launch BEE2, %A_ProgramFiles%\BEEMOD2\BEE2.exe
-    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, Uninstall.lnk, %A_ProgramFiles%\BEEMOD2\, -u, Uninstall BEE2, %A_ProgramFiles%\BEEMOD2\BEE2.exe
-    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, Check for Updates.lnk, %A_ProgramFiles%\BEEMOD2\, -c, Check for updates to BEE2, %A_ProgramFiles%\BEEMOD2\BEE2.exe
+    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, BEE2.lnk, %A_ProgramFiles%\BEEMOD2\, -r, Launch BEE2, %A_ProgramFiles%\BEEMOD2\bee2.ico
+    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, Uninstall.lnk, %A_ProgramFiles%\BEEMOD2\, -u, Uninstall BEE2, %A_ProgramFiles%\BEEMOD2\bee2-uninstaller.ico
+    FileCreateShortcut, %A_ProgramFiles%\BEEMOD2\%A_ScriptName%, Check for Updates.lnk, %A_ProgramFiles%\BEEMOD2\, -c, Check for updates to BEE2, %A_ProgramFiles%\BEEMOD2\bee2-updater.ico
     
     ; Update progress
     Loop, 2
