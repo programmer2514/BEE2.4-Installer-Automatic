@@ -42,13 +42,9 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
         if (installFlag = 1)
         {
             if A_IsCompiled
-            {
-                FileCopy, %A_ScriptFullPath%, %A_Temp%
-                Run *RunAs "%A_Temp%\%A_ScriptName%" /restart /U
-            } else
-            {
+                Run *RunAs "%A_ScriptFullPath%" /restart /U
+            else
                 Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /U
-            }
         } else
         {
             if A_IsCompiled
@@ -321,6 +317,12 @@ InstallBEE2:
 Return
 
 UninstallBEE2:
+    if A_IsCompiled
+    {
+        FileCopy, %A_ScriptFullPath%, %A_Temp%
+        Run, "%A_Temp%\%A_ScriptName%" /U
+        ExitApp
+    }
     ; Uninstall prompt
     MsgBox, 0x21, BEE2 Uninstaller, Are you sure you would like to remove Better Extended Editor for Portal 2 and all of its components?
     
