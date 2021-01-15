@@ -3,7 +3,7 @@
 #SingleInstance Ignore
 
 ; Declare variables
-installFlag := 0
+installFlag := 3
 downloadPackages := 1
 downloadApp := 1
 currentVersion := "0.0"
@@ -18,6 +18,33 @@ If (A_Args[1])
         installFlag := 2
     If ((A_Args[1] = "-r") || (A_Args[1] = "--run-bee2") || (A_Args[1] = "/R"))
         installFlag := 3
+} else {
+    installFlag := 0
+}
+
+; Check for internet access
+SetWorkingDir %A_Temp%
+FileDelete, internet_check.tmp
+UrlDownloadToFile, https://www.example.com/, internet_check.tmp
+
+If ((ErrorLevel = 1) && (installFlag != 1))
+{
+    MsgBox, 0x10, Better Extended Editor for Portal 2, No internet connection!
+    
+    if (installFlag = 3)
+    {
+        ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """C:\Program Files\BEEMOD2\BEE2.exe""" )
+    }
+    
+    ExitApp
+}
+
+FileDelete, internet_check.tmp
+
+if (installFlag = 1)
+{
+    GoSub, UninstallBEE2
+    ExitApp
 }
 
 if (installFlag = 2)
@@ -39,19 +66,10 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 {
     try
     {
-        if (installFlag = 1)
-        {
-            if A_IsCompiled
-                Run *RunAs "%A_ScriptFullPath%" /restart /U
-            else
-                Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /U
-        } else
-        {
-            if A_IsCompiled
-                Run *RunAs "%A_ScriptFullPath%" /restart
-            else
-                Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%"
-        }
+        if A_IsCompiled
+            Run *RunAs "%A_ScriptFullPath%" /restart
+        else
+            Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%"
     }
     ExitApp
 }
@@ -59,12 +77,6 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 if (installFlag = 0)
 {
     GoSub, InstallBEE2
-    ExitApp
-}
-
-if (installFlag = 1)
-{
-    GoSub, UninstallBEE2
     ExitApp
 }
 
@@ -317,12 +329,24 @@ InstallBEE2:
 Return
 
 UninstallBEE2:
-    if A_IsCompiled
+    ; If the script is not elevated, relaunch as administrator and kill current instance
+    full_command_line := DllCall("GetCommandLine", "str")
+    
+    if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
     {
-        FileCopy, %A_ScriptFullPath%, %A_Temp%
-        Run, "%A_Temp%\%A_ScriptName%" /U
+        try
+        {
+            if A_IsCompiled
+            {
+                FileCopy, %A_ScriptFullPath%, %A_Temp%, true
+                Run *RunAs "%A_Temp%\%A_ScriptName%" /U /restart
+            } else {
+                Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /U
+            }
+        }
         ExitApp
     }
+    
     ; Uninstall prompt
     MsgBox, 0x21, BEE2 Uninstaller, Are you sure you would like to remove Better Extended Editor for Portal 2 and all of its components?
     
@@ -367,12 +391,6 @@ UninstallBEE2:
 Return
 
 CheckForUpdates:
-    if A_IsCompiled
-    {
-        FileCopy, %A_ScriptFullPath%, %A_Temp%
-        Run, "%A_Temp%\%A_ScriptName%" /C
-        ExitApp
-    }
     ; Reset variables
     downloadPackages := 0
     downloadApp := 0
@@ -431,9 +449,12 @@ CheckForUpdates:
                 try
                 {
                     if A_IsCompiled
-                        Run *RunAs "%A_ScriptFullPath%" /R /restart
-                    else
-                        Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /R
+                    {
+                        FileCopy, %A_ScriptFullPath%, %A_Temp%, true
+                        Run *RunAs "%A_Temp%\%A_ScriptName%" -r /restart
+                    } else {
+                        Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" -r
+                    }
                 }
                 ExitApp
             }
@@ -447,9 +468,12 @@ CheckForUpdates:
                 try
                 {
                     if A_IsCompiled
-                        Run *RunAs "%A_ScriptFullPath%" /C /restart
-                    else
+                    {
+                        FileCopy, %A_ScriptFullPath%, %A_Temp%, true
+                        Run *RunAs "%A_Temp%\%A_ScriptName%" /C /restart
+                    } else {
                         Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%" /C
+                    }
                 }
                 ExitApp
             }
@@ -492,7 +516,6 @@ RunBEE2:
     If not (Date_HRS = lastUpdate)
     {
         GoSub, CheckForUpdates
-        ExitApp
     }
     
     ; Run BEE2
