@@ -234,7 +234,7 @@ InstallBEE2:
     ; Copy self into BEE2 directory
     FileCopy, %A_ScriptFullPath%, %A_ProgramFiles%\BEEMOD2
     
-    SetWorkingDir, C:\Program Files\BEEMOD2
+    SetWorkingDir, %A_ProgramFiles%\BEEMOD2
     FileDelete, BEE2.ico
     UrlDownloadToFile, https://raw.githubusercontent.com/programmer2514/BEE2.4-Installer-Automatic/master/icons/bee2.ico, bee2.ico
     UrlDownloadToFile, https://raw.githubusercontent.com/programmer2514/BEE2.4-Installer-Automatic/master/icons/bee2-uninstaller.ico, bee2-uninstaller.ico
