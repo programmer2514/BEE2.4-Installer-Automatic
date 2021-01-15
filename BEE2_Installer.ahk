@@ -386,11 +386,6 @@ CheckForUpdates:
     ; Read current version text files
     SetWorkingDir, %A_AppData%\BEEMOD2
     
-    Date_HRS := (A_YYYY * 8760) + (A_MM * 730) + (A_DD * 24) + A_Hour
-    
-    FileDelete, last_update.txt
-    FileAppend, %Date_HRS%, last_update.txt
-    
     FileRead currentVersion, version.txt
     If FileExist("pck_version.txt")
         FileRead currentPckVersion, pck_version.txt
@@ -483,7 +478,10 @@ RunBEE2:
 
     ; Check for updates
     If not (Date_HRS = lastUpdate)
+    {
         GoSub, CheckForUpdates
+        ExitApp
+    }
     
     ; Run BEE2
     ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """" . A_ProgramFiles . "\BEEMOD2\BEE2.exe""" )
