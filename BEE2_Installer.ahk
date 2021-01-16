@@ -29,7 +29,7 @@ UrlDownloadToFile, https://www.example.com/, internet_check.tmp
 
 If ((ErrorLevel = 1) && (installFlag != 1))
 {
-    MsgBox, 0x10, Better Extended Editor for Portal 2, No internet connection!
+    MsgBox, 0x10, Better Extended Editor for Portal 2, No internet connection!`nCould not check for updates
     
     if (installFlag = 3)
     {
@@ -316,15 +316,16 @@ InstallBEE2:
     
     Gui, Destroy
     If (downloadApp = 1)
-        MsgBox, 0x30, BEE2 Installer, BEEMOD v%currentVersion% has been installed successfully!
+        MsgBox, 0x40, BEE2 Installer, BEEMOD v%currentVersion% has been installed successfully!
     If (downloadPackages = 1)
-        MsgBox, 0x30, BEE2 Installer, BEEMOD packages %packageVersion% has been installed successfully!
+        MsgBox, 0x40, BEE2 Installer, BEEMOD packages %packageVersion% has been installed successfully!
         
     ; Run Prompt
     MsgBox, 0x124, BEE2 Installer, Would you like to run BEE2 now?
     IfMsgBox Yes
     {
         ComObjCreate( "Shell.Application" ).Windows.FindWindowSW( 0 , 0 , 8 , 0 , 1 ).Document.Application.ShellExecute( """C:\Program Files\BEEMOD2\BEE2.exe""" )
+        ExitApp
     }
 Return
 
