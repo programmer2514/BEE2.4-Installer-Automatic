@@ -25,11 +25,11 @@ If (A_Args[1])
 ; Check for internet access
 SetWorkingDir %A_Temp%
 FileDelete, internet_check.tmp
-UrlDownloadToFile, https://www.example.com/, internet_check.tmp
+UrlDownloadToFile, https://github.com/programmer2514/BEE2.4-Installer-Automatic/blob/master/internet_check.tmp?raw=true, internet_check.tmp
 
 If ((ErrorLevel = 1) && (installFlag != 1))
 {
-    MsgBox, 0x10, Better Extended Editor for Portal 2, No internet connection!`nCould not check for updates
+    MsgBox, 0x10, BEE2 Installer - No internet connection!, The installer was unable to check for updates.`nPlease check your internet connection and try again.
     
     if (installFlag = 3)
     {
@@ -375,8 +375,12 @@ UninstallBEE2:
     }
     IfMsgBox Yes
     {
-        SetWorkingDir, %A_AppData%
-        FileRemoveDir, BEEMOD2, 1
+        MsgBox, 0x123, BEE2 Uninstaller, Are you sure you would like to remove ALL USER DATA?`nThis action cannot be undone.
+        IfMsgBox Yes
+        {
+            SetWorkingDir, %A_AppData%
+            FileRemoveDir, BEEMOD2, 1
+        }
     }
     
     ; Remove application/packages
