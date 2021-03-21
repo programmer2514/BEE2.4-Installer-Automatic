@@ -10,6 +10,6 @@ It is a rewrite of my [original installer](https://github.com/programmer2514/BEE
 ## Features:
 * One executable, all versions - this one-time installer will manage all future updates of BEE2 for you
 * Automatically checks for updates upon program launch - never worry about missing an update again!
-* Manual update checker - able to check for updates up to 1 time per minute
+* Manual update checker - able to check for updates up to 60 times per hour
 * Easy application repair - simply run the installer again
 * Official sources; no third-parties or tracking involved - all files are downloaded directly from GitHub
