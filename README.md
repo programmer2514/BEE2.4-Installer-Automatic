@@ -1,10 +1,10 @@
 # BEE2 Automatic Installer
+![Installer](https://i.ibb.co/cb5TBBL/Untitled.png)
 ### [> DOWNLOAD HERE <](https://github.com/programmer2514/BEE2.4-Installer-Automatic/releases/latest)
 *Latest release (v1.2.3) confirmed working as of BEE2 v4.40.1*
 
 ---
 
-![Installer](https://i.ibb.co/cb5TBBL/Untitled.png)
 ## Overview:
 This is an automatic installer for *[**BEE2** (Better Extended Editor for Portal 2)](https://github.com/BEEmod/BEE2.4)*
 
