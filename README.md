@@ -1,7 +1,7 @@
 # BEE2 Automatic Installer
 ![Installer](https://i.ibb.co/cb5TBBL/Untitled.png)
 ### [> DOWNLOAD HERE <](https://github.com/programmer2514/BEE2.4-Installer-Automatic/releases/latest)
-*Latest release (v1.2.3) confirmed working as of BEE2 v4.41.0*
+*Latest release (v1.2.4) confirmed working as of BEE2 v4.41.0*
 
 ---
 
