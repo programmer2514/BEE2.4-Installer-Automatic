@@ -209,17 +209,20 @@ InstallBEE2:
         ; Parse JSON data
         FileRead packagesJSON, packages.json
         packagesData := JSON.Load(packagesJSON)
-        packagesURL := packagesData[1].assets[1].browser_download_url
+        packagesURL := packagesData[1].assets[2].browser_download_url
+        packagesMusicURL := packagesData[1].assets[1].browser_download_url
         packageVersion := packagesData[1].tag_name
         
-        ; Download file
+        ; Download files
         UrlDownloadToFile, %packagesURL%, packages.zip
+        UrlDownloadToFile, %packagesMusicURL%, music_packages.zip
         
         GuiControl,, InstallText, Installing packages...
         Sleep, 250
         
         ; Unzip and copy to program files
         RunWait, unzip.exe packages.zip -d packages,, Hide
+        RunWait, unzip.exe music_packages.zip -d packages,, Hide
         CopyFilesAndFolders(A_Temp . "\BEEMOD2\packages\*", "C:\Program Files\BEEMOD2", true)
     }
     
