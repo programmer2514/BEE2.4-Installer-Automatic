@@ -223,7 +223,7 @@ InstallBEE2:
         ; Unzip and copy to program files
         RunWait, unzip.exe packages.zip -d packages,, Hide
         RunWait, unzip.exe music_packages.zip -d packages,, Hide
-        CopyFilesAndFolders(A_Temp . "\BEEMOD2\packages\*", "C:\Program Files\BEEMOD2", true)
+        CopyFilesAndFolders(A_Temp . "\BEEMOD2\packages", "C:\Program Files\BEEMOD2", true)
     }
     
     ; Update progress
